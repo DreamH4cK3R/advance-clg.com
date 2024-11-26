@@ -1,0 +1,208 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Body */
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  header {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: red;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to right, #fc0404, #00796b);
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+  }
+  .hero-contant{
+    max-width: 700px;
+    margin: 0 auto;
+  }
+    .hero h2 {
+    font-size: 4rem;
+    margin-bottom: 0rem;
+  }
+  h3{
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transform: scale(1.5);
+    border-radius: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+  .hero h1 
+  {
+    margin-right: 20rem;
+  }
+  .hero h5{
+    margin-left: 20rem;
+  }
+  
+  .cta-button {
+  background-color: #ff9800;
+  background-position: (8px);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 2rem;
+  text-decoration:yellow;
+  }
+    
+  .cta-button:hover {
+    background-color: #e65100;
+    box-shadow:0 0 30px rgb(255, 255, 00);
+   }
+  
+  /* About Section */
+  .about {
+    background-color: #ffffff;
+    padding: 3rem 0;
+    text-align: center;
+    background-image:src"C:\Users\ADMIN\Desktop\advance\AIP_Building-1.jpg";
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  /* Courses Section */
+  .courses {
+    background-color: #f5f8fa;
+    padding: 3rem 0;
+  }
+  
+  .courses h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0%;
+    background-color: #1bd6f3;
+  }
+  
+  .course-list {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #00796b;
+  }
+  
+  .course-item {
+    background-color:  rgb(210, 236, 45);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+  }
+  
+  .course-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .course-item p {
+    font-size: 1rem;
+  }
+
+/* section photos */
+  .photos{
+    text-align: center;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #ffffff;
+    padding: 3rem 0;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact input, .contact textarea {
+    width: 80%;
+    max-width: 600px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .contact button {
+    background-color: #00796b;
+    color: white;
+    padding: 1rem 3rem;
+    border:navajowhite;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #004d40;
+  }
+  
+  /* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
